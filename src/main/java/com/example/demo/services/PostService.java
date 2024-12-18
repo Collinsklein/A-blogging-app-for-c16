@@ -1,6 +1,6 @@
 package com.example.demo.services;
 
-import com.example.demo.ResourceNotFoundException;
+import com.example.demo.exceptions.ResourceNotFoundException;
 import com.example.demo.entities.Post;
 import com.example.demo.repos.PostRepo;
 import org.springframework.beans.factory.annotation.Autowired;
